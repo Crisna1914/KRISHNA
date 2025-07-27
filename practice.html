@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+  <title>CSS Practice Examples</title>
+  <!-- External CSS for Tasks 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Internal CSS for Tasks 5, 6, 7, 8, 9, 10 -->
+  <style>
+    /* Task 5 */
+    section:hover {
+      background-color: lightblue;
+    }
+
+    /* Task 6 */
+    h2 {
+      color: green;
+      font-style: italic;
+      text-align: center;
+    }
+
+    /* Task 7 */
+    label, input, button {
+      display: block;
+      margin: 10px 0;
+      font-family: Arial;
+      font-size: 16px;
+    }
+
+    /* Task 8 */
+    .pricing {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .pricing:hover {
+      transform: scale(1.05);
+      border-color: blue;
+    }
+
+    /* Task 9 */
+    header {
+      position: fixed;
+      width: 100%;
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+      padding: 15px;
+      top: 0;
+    }
+
+    /* Task 10 */
+    .testimonial {
+      border-left: 5px solid #00bcd4;
+      padding: 20px;
+      margin: 20px;
+      font-style: italic;
+    }
+    .author {
+      font-weight: bold;
+      text-align: right;
+    }
+  </style>
+</head>
+<body link="Practice">
+
+  <h1>CSS Practice Tasks</h1>
+
+  <!-- Task 1 -->
+  <h3>1. Red Button (Inline CSS)</h3>
+  <button style="background-color: red; color: white; border-radius: 10px; padding: 10px;">Click Me</button>
+
+  <!-- Task 2 -->
+  <h3>2. Blue Paragraph (Inline CSS)</h3>
+  <p style="color: blue; font-size: 18px; padding: 10px;">This is a styled paragraph.</p>
+
+  <!-- Task 3 -->
+  <h3>3. Navigation Menu (Inline CSS)</h3>
+  <nav>
+    <a href="#" style="background-color: red; padding: 10px; color: white;">Home</a>
+    <a href="#" style="background-color: green; padding: 10px; color: white;">About</a>
+    <a href="#" style="background-color: blue; padding: 10px; color: white;">Contact</a>
+  </nav>
+
+  <!-- Task 4 -->
+  <h3>4. Card with Shadow (Inline CSS)</h3>
+  <div style="width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); border: 1px solid #ccc; padding: 20px;">
+    <h3>Card Title</h3>
+    <p>Card content goes here.</p>
+  </div>
+
+  <!-- Task 5 -->
+  <h3>5. Hover Background Change (Internal CSS)</h3>
+  <section style="padding: 20px;">Hover over this section.</section>
+
+  <!-- Task 6 -->
+  <h3>6. Style h2 (Internal CSS)</h3>
+  <h2>This is a styled heading</h2>
+
+  <!-- Task 7 -->
+  <h3>7. Form (Internal CSS)</h3>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Task 8 -->
+  <h3>8. Pricing Table (Internal CSS)</h3>
+  <div class="pricing">
+    <h3>Basic</h3>
+    <p>$10/month</p>
+  </div>
+
+  <!-- Task 9 -->
+  <h3>9. Landing Page Header (Internal CSS)</h3>
+  <header>
+    Welcome to My Landing Page
+  </header>
+
+  <br><br><br><br><br>
+
+  <!-- Task 10 -->
+  <h3>10. Testimonial (Internal CSS)</h3>
+  <div class="testimonial">
+    "This platform changed my life!"
+    <div class="author">— Alex</div>
+  </div>
+
+  <!-- Task 11 -->
+  <h3>11. Blog Layout (External CSS)</h3>
+  <h1>My Blog</h1>
+  <p>This is the first paragraph of my blog post.</p>
+  <img src="https://via.placeholder.com/300" alt="Blog image">
+
+  <!-- Task 12 -->
+  <h3>12. Product Grid (External CSS)</h3>
+  <div class="grid">
+    <div class="product">Product 1</div>
+    <div class="product">Product 2</div>
+  </div>
+
+  <!-- Task 13 -->
+  <h3>13. Contact Form (External CSS)</h3>
+  <form>
+    <label>Email:</label>
+    <input type="email">
+    <button>Send</button>
+  </form>
+
+  <!-- Task 14 -->
+  <h3>14. Portfolio Layout (External CSS)</h3>
+  <section class="about">About Me</section>
+  <section class="skills">Skills</section>
+  <section class="projects">Projects</section>
+
+  <!-- Task 15 -->
+  <h3>15. CSS Precedence (Inline > Internal > External)</h3>
+  <p class="test" style="color: red;">This paragraph has inline, internal, and external styles.</p>
+
+  <!-- Task 16 -->
+  <h3>16. Two Pages Using Same CSS (External) - see style.css file</h3>
+  <p class="shared">Shared style content</p>
+
+  <!-- Task 17 -->
+  <h3>17. Website with Mixed CSS</h3>
+  <header class="external-header">Header Styled Externally</header>
+  <aside style="background: lightgray; padding: 10px;">Sidebar Styled Inline</aside>
+  <button style="background: green; color: white;">CTA Button</button>
+
+  <!-- Task 18 -->
+  <h3>18. Convert Internal to External CSS</h3>
+  <p class="external-style">Originally internal, now styled externally.</p>
+
+  <!-- Task 19 -->
+  <h3>19. Refactor Inline → Internal → External</h3>
+  <p class="final-style">Styled using external CSS instead of inline.</p>
+
+  <!-- Task 20 -->
+  <h3>20. 3 Sections with 3 CSS Types</h3>
+  <div style="color: red;">Inline CSS Section</div>
+  <div class="internal">Internal CSS Section</div>
+  <div class="external">External CSS Section</div>
+
+</body>
+</html>

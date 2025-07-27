@@ -1,0 +1,94 @@
+/* Tasks 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 */
+
+/* Task 11 Blog Post */
+body {
+  font-family: Arial;
+  line-height: 1.6;
+}
+h1 {
+  color: darkblue;
+}
+p {
+  font-size: 18px;
+  color: #333;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Task 12 Product Grid */
+.grid {
+  display: flex;
+  gap: 20px;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  transition: 0.3s;
+}
+.product:hover {
+  background-color: lightgray;
+}
+
+/* Task 13 Contact Form */
+form {
+  width: 300px;
+}
+label, input, button {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Task 14 Portfolio Layout */
+.about {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.skills {
+  background-color: #e0f7fa;
+  padding: 20px;
+}
+.projects {
+  background-color: #ffe0b2;
+  padding: 20px;
+}
+
+/* Task 15 CSS Precedence */
+.test {
+  color: green;
+}
+
+/* Task 16 Shared Style */
+.shared {
+  font-style: italic;
+  color: blue;
+}
+
+/* Task 17 External Header */
+.external-header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+/* Task 18 */
+.external-style {
+  color: purple;
+}
+
+/* Task 19 */
+.final-style {
+  font-weight: bold;
+  color: navy;
+}
+
+/* Task 20 */
+.internal {
+  background-color: lightgreen;
+  padding: 10px;
+}
+.external {
+  background-color: lightblue;
+  padding: 10px;
+}
